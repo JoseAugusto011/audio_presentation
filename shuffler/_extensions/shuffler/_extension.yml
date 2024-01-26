@@ -9,4 +9,3 @@ contributes:
         - shuffler.js
       stylesheet:
         - shuffler.css
-
