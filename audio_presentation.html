@@ -33,6 +33,8 @@
   <link href="audio_presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="audio_presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="audio_presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="audio_presentation_files/libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="audio_presentation_files/libs/revealjs/plugin/reveal-attribution/attribution.css" rel="stylesheet">
   <link href="audio_presentation_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -373,10 +375,56 @@
 </div>
 </div>
 </div>
+</div></section>
+<section>
+<section id="section-1" class="title-slide slide level1 title center">
+<h1></h1>
+<div class="r-fit-text">
+<p><span class="flow">Produto</span></p>
+</div>
+</section>
+<section id="section-2" class="slide level2" data-background-image="https://i.pinimg.com/originals/a5/b8/13/a5b813bad7d856d76f8837e5f722ef63.jpg" data-background-size="contain" data-background-position="left">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+
+</div><div class="column" style="width:60%;">
+<section id="sobre-o-produto" class="slide level2">
+<h2>Sobre o produto</h2>
+<p><br> <br></p>
+<p>Escreva sobre o produto aqui</p>
+</section>
+</div>
+</div>
+</section></section>
+<section>
+<section id="section-3" class="title-slide slide level1 title center">
+<h1></h1>
+<div class="r-fit-text">
+<p><span class="flow">Motivação</span></p>
+</div>
+</section>
+<section id="motivação-para-criação-do-produto" class="slide level2" data-background-image="https://img.lovepik.com/free-png/20211211/lovepik-writing-man-png-image_401502981_wh1200.png" data-background-position="center" data-background-size="contain" data-background-opacity="0.10">
+<h2>Motivação para criação do produto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Pode escrever alguma coisa aqui</p>
+<p><br></p>
+<p>Pode escrever alguma coisa aqui</p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://portalwp.s3.amazonaws.com/wp-content/uploads/2020/11/26103352/1494-28-01.png" style="width:70.0%"></p>
+<figcaption>Professor escreve no quadro verde com giz de cera as letras A, B e C, que representam as três primeiras letras do alfabeto.</figcaption>
+</figure>
+</div>
+</div>
 </div>
 <div class="footer footer-default">
 
-</div></section>
+</div>
+</section></section>
     </div>
   </div>
 
@@ -387,6 +435,8 @@
   <script src="audio_presentation_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="audio_presentation_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="audio_presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="audio_presentation_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="audio_presentation_files/libs/revealjs/plugin/reveal-attribution/attribution.js"></script>
   <script src="audio_presentation_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -409,6 +459,7 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'pointer': {"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -579,7 +630,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, RevealAttribution, QuartoSupport,
 
           RevealMath,
           RevealNotes,

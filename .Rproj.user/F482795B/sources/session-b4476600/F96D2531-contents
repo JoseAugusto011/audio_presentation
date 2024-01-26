@@ -14,6 +14,10 @@ format:
     code-tools: true
     auto-stretch: true
     code-link: true
+revealjs-plugins:
+  - pointer
+  - attribution
+  - roughnotation
 editor: 
   markdown: 
     wrap: 72
@@ -50,4 +54,49 @@ Estudante do ... período no curso de ... da ...
 :::
 :::
 
+:::
+
+#  {.title}
+
+::: r-fit-text
+[Produto]{.flow}
+:::
+
+##  {background-image="https://i.pinimg.com/originals/a5/b8/13/a5b813bad7d856d76f8837e5f722ef63.jpg" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+## Sobre o produto {.r-fit-text}
+
+<br> <br>
+
+Escreva sobre o produto aqui
+:::
+:::
+
+#  {.title}
+
+::: r-fit-text
+[Motivação]{.flow}
+:::
+
+## Motivação para criação do produto {background-image="https://img.lovepik.com/free-png/20211211/lovepik-writing-man-png-image_401502981_wh1200.png" background-position="center" background-size="contain" background-opacity="0.10"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+Pode escrever alguma coisa aqui
+
+<br>
+
+Pode escrever alguma coisa aqui
+:::
+
+::: {.column width="50%"}
+![Professor escreve no quadro verde com giz de cera as letras A, B e C, que representam as três primeiras letras do alfabeto.](https://portalwp.s3.amazonaws.com/wp-content/uploads/2020/11/26103352/1494-28-01.png){width="70%" fig-align="center"}
+:::
 :::
