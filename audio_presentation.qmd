@@ -1,12 +1,53 @@
 ---
 title: "Nome para apresentação"
-format: revealjs
+format: 
+  revealjs:
+    theme: [default, style.scss]
+    background-transition: fade
+    width: 1920
+    height: 1080
+    transition: slide
+    preview-links: auto
+    scrollable: true
+    controls: true
+    incremental: true
+    code-tools: true
+    auto-stretch: true
+    code-link: true
+editor: 
+  markdown: 
+    wrap: 72
+lang: pt-br
+execute:
+  refresh: true
+  warning: false
+  error: false
+  eval: true
+  echo: true
 ---
 
-## Quarto
+# {.r-fit-text}
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+::: {layout-ncol=2}
 
-```{r}
-1 + 1
-```
+::: {layout-nrow=2}
+![](https://avatars.githubusercontent.com/u/94493420?v=4){fig-align="center"}
+
+::: {}
+### Gabriel de Jesus Pereira
+
+Estudante do 6º período no curso de estatística da UFPB.
+:::
+:::
+
+::: {layout-nrow=2}
+![](https://avatars.githubusercontent.com/u/104443738?v=4){fig-align="center"}
+
+::: {}
+### José Augusto
+
+Estudante do ... período no curso de ... da ...
+:::
+:::
+
+:::
